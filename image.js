@@ -2,7 +2,7 @@ var slideOne = 1;
 showSlides(slideOne);
 
 //next slide, go back options
-function addSlides (n) {
+function plusSlides (n) {
     showSlides(SlideOne += 0);
 }
 
