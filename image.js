@@ -3,7 +3,7 @@ showSlides(slideOne);
 
 //next slide, go back options
 function plusSlides (n) {
-    showSlides(SlideOne += 0);
+    showSlides(slideOne += n);
 }
 
 // preview the images
@@ -27,4 +27,4 @@ function showSlides (n) {
       slides[slideOne-1].style.display = "block";
       dots[slideOne-1].className += " active";
       captionText.innerHTML = dots[slideOne-1].alt;
-    }
+}
