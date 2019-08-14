@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Responsive Image Gallery</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="image.css">
+  </head>
+
+  <body>
+    <h2 style="text-align:center">Cities in Peru</h2>
+
+    <div class="container">
+      <div class="mySlides">
+        <div class="numtext">1 / 6</div>
+        <img src="lima.jpg" style="width:100%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numtext">2/6</div>
+        <img src="cusco.jpg" style="width:100%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numtext">3/ 6</div>
+        <img src="iquitos.jpg" style="width:100%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numtext">4 / 6</div>
+        <img src="puno.jpg" style="width:100%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numtext">5 / 6</div>
+        <img src="arequipa.jpg" style="width:100%" />
+      </div>
+
+      <div class="mySlides">
+        <div class="numtext">6 / 6</div>
+        <img src="ancash.jpg" style="width:100%" />
+      </div>
+
+      <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="lima.jpg"
+            style="width:100%"
+            onclick="currentSlide(1)"
+            alt="Lima"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="cusco.jpg"
+            style="width:100%"
+            onclick="currentSlide(2)"
+            alt="Macchu Picchu"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="iquitos.jpg"
+            style="width:100%"
+            onclick="currentSlide(3)"
+            alt="Iquitos"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="puno.jpg"
+            style="width:100%"
+            onclick="currentSlide(4)"
+            alt="Puno"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="arequipa.jpg"
+            alt="Arequipa"
+            style="width:100%"
+            onclick="currentSlide(5)"
+          />
+        </div>
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="ancash.jpg"
+            style="width:100%"
+            onclick="currentSlide(6)"
+            alt="Ancash"
+          />
+      </div>
+    </div>
+    
+  
+  
+  </body>
+  <script src="image.js"></script>
+</html>
